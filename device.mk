@@ -440,3 +440,8 @@ PRODUCT_COPY_FILES += \
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
+
+#GCam Go
+PRODUCT_PACKAGES += \
+    GCam
+
