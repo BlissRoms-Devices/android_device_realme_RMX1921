@@ -10,6 +10,9 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Inherit from RMX1921 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Inherit PixelGApps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
 #boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
