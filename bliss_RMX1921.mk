@@ -11,10 +11,13 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit PixelGApps
-$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+#$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 
 #boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
+
+#Official Build
+BLISS_BUILDTYPE=OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1921
