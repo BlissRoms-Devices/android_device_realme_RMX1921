@@ -556,4 +556,8 @@
     
     <!-- Vowifi -->
     <bool name="config_hasVowifi">true</bool>
+
+    <!-- Whether device has vooc charging support -->
+    <bool name="config_hasVoocCharger">true</bool>
+
 </resources>
