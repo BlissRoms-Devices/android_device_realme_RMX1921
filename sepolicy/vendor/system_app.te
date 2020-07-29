@@ -15,3 +15,6 @@ allow system_app sysfs_fps:file { getattr open read };
 allow system_app sysfs_graphics:dir search;
 allow system_app sysfs_graphics:file r_file_perms;
 allow system_app sysfs_graphics:file { getattr open read };
+allow system_app sysfs_battery_supply:dir search;
+allow system_app sysfs_battery_supply:file { getattr open read };
+allow system_app sysfs_kgsl:file { getattr open read };
