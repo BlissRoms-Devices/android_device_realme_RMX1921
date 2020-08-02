@@ -20,14 +20,8 @@
 	<bool name="config_supportBatteryHealth">true</bool>
 
      <!-- Battery Health Strings -->
-    <string name="config_battDesCap">/sys/class/power_supply/battery/charge_full</string>
-    <string name="config_battCurCap">/sys/class/power_supply/battery/charge_counter</string>
-    <string name="config_battHealth">/sys/class/power_supply/battery/battery_health</string>
-    <string name="config_battStatus">/sys/class/power_supply/battery/battery_status</string>
-    <string name="config_battChagType">/sys/class/power_supply/battery/voocchg_ing</string>
-    <string name="config_battMaxCurrent">/sys/class/power_supply/battery/constant_charge_current_max</string>
-    <string name="config_battMaxVolt">/sys/class/power_supply/battery/voltage_now</string>
-    <string name="config_battChagCycleCount">/sys/class/power_supply/battery/cycle_count</string>
-    <string name="config_battTech">/sys/class/power_supply/battery/battery_technology</string>
+    <string name="config_batDesCap">/sys/class/power_supply/battery/charge_full</string>
+    <string name="config_batCurCap">/sys/class/power_supply/battery/charge_now_raw</string>
+    <string name="config_batChargeCycle">/sys/class/power_supply/battery/cycle_count</string>
 
 </resources>
