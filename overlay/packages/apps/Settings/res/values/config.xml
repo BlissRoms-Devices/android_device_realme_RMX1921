@@ -13,10 +13,13 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Device specific doze package -->
+     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
-    <!-- Battery Health Info -->
+     <!-- Battery Health Overlay -->
+	<bool name="config_supportBatteryHealth">true</bool>
+
+     <!-- Battery Health Strings -->
     <string name="config_battDesCap">/sys/class/power_supply/battery/charge_full</string>
     <string name="config_battCurCap">/sys/class/power_supply/battery/charge_counter</string>
     <string name="config_battHealth">/sys/class/power_supply/battery/battery_health</string>
