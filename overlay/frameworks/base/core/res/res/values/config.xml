@@ -545,9 +545,6 @@
     <bool name="config_dozePulsePickup">true</bool>
     <bool name="config_dozePulseProximity">true</bool>
        
-    <!-- If true, the display will be shifted around in ambient mode. -->
-    <bool name="config_enableBurnInProtection">true</bool>
-
     <!-- System info -->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
     <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
@@ -597,10 +594,8 @@
 
     <!-- Default value for proximity check on screen wake
          NOTE! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
-    <bool name="config_proximityCheckOnWake">true</bool>
     <integer name="config_proximityCheckTimeout">100</integer>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
-
+   
     <!-- Whether Device support LiveDisplay or not -->
     <bool name="config_liveDisplayAvailable">true</bool>
 
