@@ -103,13 +103,14 @@ TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.RMX1921
 
 # GAPPS
 TARGET_GAPPS_OVERRIDE += \
-    GoogleCamera \
-    PixelLiveWallpaperPrebuilt \
+   PixelLiveWallpaperPrebuilt \
     NexusWallpapersStubPrebuilt2019 \
     Chrome \
     Photos \
     AudioFX \
-    Snap
+    Snap \
+    Email \
+    GalleryGoPrebuilt
 
 # Graphics
 TARGET_USES_GRALLOC1 := true
