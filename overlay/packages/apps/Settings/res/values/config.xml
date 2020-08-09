@@ -17,7 +17,8 @@
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
      <!-- Battery Health Overlay -->
-	<bool name="config_supportBatteryHealth">true</bool>
+     <bool name="config_supportBatteryHealth">true</bool>
+     <bool name="config_showChargingCycles">false</bool>
 
      <!-- Battery Health Strings -->
     <string name="config_batDesCap">/sys/class/power_supply/battery/charge_full</string>
