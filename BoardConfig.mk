@@ -108,7 +108,6 @@ TARGET_GAPPS_OVERRIDE += \
     Chrome \
     Photos \
     AudioFX \
-    Snap \
     Email \
     GalleryGoPrebuilt
 
