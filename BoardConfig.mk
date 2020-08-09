@@ -101,6 +101,16 @@ BOARD_HAVE_QCOM_FM := true
 # FOD
 TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.RMX1921
 
+# GAPPS
+TARGET_GAPPS_OVERRIDE += \
+    GoogleCamera \
+    PixelLiveWallpaperPrebuilt \
+    NexusWallpapersStubPrebuilt2019 \
+    Chrome \
+    Photos \
+    AudioFX \
+    Snap
+
 # Graphics
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
