@@ -109,7 +109,9 @@ TARGET_GAPPS_OVERRIDE += \
     Photos \
     AudioFX \
     Email \
-    GalleryGoPrebuilt
+    GalleryGoPrebuilt \
+    Snap \
+    Jelly
 
 # Graphics
 TARGET_USES_GRALLOC1 := true
