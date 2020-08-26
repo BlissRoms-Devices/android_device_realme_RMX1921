@@ -131,6 +131,10 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
+    CustomDoze
+
+# Doze
+PRODUCT_PACKAGES += \
     RealmeParts
 
 # Fingerprint
