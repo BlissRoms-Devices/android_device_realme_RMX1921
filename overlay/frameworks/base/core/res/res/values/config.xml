@@ -623,4 +623,6 @@
          fading edges is prohibitively expensive on most GPUs. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
 
+   <!-- Enables miui cyan as default pressed state color. -->
+    <integer name="config_pressed_fod_icon">0</integer>
 </resources>
