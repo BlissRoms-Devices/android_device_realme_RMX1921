@@ -450,3 +450,8 @@ PRODUCT_COPY_FILES += \
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
+
+# RealmeParts
+PRODUCT_PACKAGES += \
+    RealmeParts
+
