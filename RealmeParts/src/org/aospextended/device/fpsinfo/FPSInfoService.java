@@ -41,7 +41,7 @@ import android.view.WindowManager;
 import java.lang.Math;
 import java.lang.StringBuffer;
 
-import org.aospextended.device.FileUtils;
+import com.android.internal.util.custom.FileUtils;
 
 public class FPSInfoService extends Service {
     private View mView;
