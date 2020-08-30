@@ -15,3 +15,5 @@ type vendor_dolby_loglevel_prop, property_type;
 # Spectrum
 type spectrum_prop, property_type;
 
+# Dirac
+type dirac_prop, property_type;
