@@ -455,3 +455,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RealmeParts
 
+# Spectrum Manager
+PRODUCT_PACKAGES += \
+    init.spectrum.rc \
+    init.spectrum.sh
