@@ -346,7 +346,6 @@ firmware_directories /vendor/firmware_mnt/image/
 /dev/kmsg                                               0620   root       system
 /sys/class/timed_output/vibrator/* 0660 system system
 
-
 # LED class devices
 /sys/class/leds/red      delay_on     0640    system    system
 /sys/class/leds/red      delay_off    0640    system    system
