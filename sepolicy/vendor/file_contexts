@@ -57,10 +57,6 @@
 # Dolby
 /(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@1\.0-service                     u:object_r:hal_dms_default_exec:s0
 
-# Kcal
-/sys/devices/platform/kcal_ctrl.0(/.*)?         u:object_r:kcal_dev:s0
-/sys/bus/platform/drivers/kcal_ctrl(/.*)?       u:object_r:kcal_dev:s0
-
 # Audio Gain
 /sys/kernel/sound_control/headphone_gain                     u:object_r:sysfs_headgain:s0
 /sys/kernel/sound_control/mic_gain                           u:object_r:sysfs_micgain:s0
