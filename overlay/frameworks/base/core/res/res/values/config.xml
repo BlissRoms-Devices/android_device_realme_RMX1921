@@ -601,9 +601,6 @@
     <!-- Default value for proximity check on screen wake
          NOTE! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
     <integer name="config_proximityCheckTimeout">100</integer>
-   
-    <!-- Whether Device support LiveDisplay or not -->
-    <bool name="config_liveDisplayAvailable">true</bool>
 
     <!-- Wired/BT headset focus mode -->
     <bool name="config_deviceRingtoneFocusMode">true</bool>
