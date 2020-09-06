@@ -157,3 +157,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 #VoWifi
 persist.vendor.radio.data_con_rprt=1
 
+#AnxCam
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.vendor.device=RMX1921

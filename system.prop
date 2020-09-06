@@ -141,3 +141,6 @@ persist.hwc.enable_vds=1
 
 #VoWifi
 ro.telephony.iwlan_operation_mode=legacy
+
+#AnxCam
+ro.product.vendor.device=RMX1921
