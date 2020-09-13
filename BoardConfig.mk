@@ -165,6 +165,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # Properties
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
