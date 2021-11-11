@@ -331,6 +331,14 @@ void BiometricsFingerprint::setFingerprintScreenState(const bool on) {
     set(DIMLAYER_PATH, on ? ON: OFF);
 }
 
+Return<void> BiometricsFingerprint::onHideUdfpsOverlay() {
+    return Void();
+}
+
+Return<void> BiometricsFingerprint::onShowUdfpsOverlay() {
+    return Void();
+}
+
 }  // namespace implementation
 }  // namespace V2_3
 }  // namespace fingerprint
