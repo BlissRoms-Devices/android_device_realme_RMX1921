@@ -156,6 +156,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_hwc_vds=1 \
     dev.pm.dyn_samplingrate=1 \
     persist.front.skipdisplay.enable=1 \
+    debug.renderengine.backend=skiaglthreaded \
+    renderthread.skia.reduceopstasksplitting=true \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
 
