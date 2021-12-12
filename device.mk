@@ -171,7 +171,9 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor \
-    vendor.qti.hardware.display.allocator@1.0-service
+    vendor.qti.hardware.display.allocator@1.0-service \
+    vendor.qti.hardware.display.mapper@3.0.vendor \
+    vendor.qti.hardware.display.mapper@4.0.vendor
 
 # Display Device Config
 PRODUCT_COPY_FILES += \
