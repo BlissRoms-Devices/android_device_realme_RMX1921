@@ -71,6 +71,13 @@ void load_dalvikvm_properties() {
   property_override("dalvik.vm.heapminfree", "8m");
 }
 
+void property_override_dual(char const system_prop[], char const vendor_prop[],
+    char const value[])
+{
+    property_override(system_prop, value);
+    property_override(vendor_prop, value);
+}
+
 void vendor_load_properties() {
 
     string oppo_sku = GetProperty("ro.boot.product.hardware.sku", "");
@@ -85,4 +92,7 @@ void vendor_load_properties() {
 
   // dalvikvm props
   load_dalvikvm_properties();
+
+    // fingerprint
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys");
 }
