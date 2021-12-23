@@ -109,5 +109,5 @@
     <hidden-api-whitelisted-app package="com.qti.service.colorservice" />
     <hidden-api-whitelisted-app package="org.device.RealmeParts" />
     <hidden-api-whitelisted-app package="co.hyper.proximityservice"/>
-    <allow-implicit-broadcast action="org.codeaurora.intent.action.CALL_COMPOSER_INFO" />
+    <allow-implicit-broadcast action="org.codeaurora.intent.action.PRE_ALERTING_CALL_INFO" />
 </config>
