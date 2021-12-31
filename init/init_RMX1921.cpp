@@ -92,5 +92,5 @@ void vendor_load_properties() {
   load_dalvikvm_properties();
 
     // fingerprint
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys");
 }
