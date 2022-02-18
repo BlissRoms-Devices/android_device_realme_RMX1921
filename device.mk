@@ -481,6 +481,10 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     apex_metadata.rc
 
+# Remove Unwanted Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_RMX1921
