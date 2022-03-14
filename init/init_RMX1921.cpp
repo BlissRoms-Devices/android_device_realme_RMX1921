@@ -6,7 +6,6 @@
  */
 
 #include <fstream>
-#include <stdlib.h>
 #include <unistd.h>
 #include <vector>
 #include <cstdlib>
@@ -21,7 +20,6 @@
 #include "vendor_init.h"
 
 using android::base::GetProperty;
-using ::android::base::SetProperty;
 using std::string;
 
 std::vector<string> ro_props_default_source_order = {
@@ -71,28 +69,7 @@ void load_dalvikvm_properties() {
   property_override("dalvik.vm.heapminfree", "8m");
 }
 
-void property_override_dual(char const system_prop[], char const vendor_prop[],
-    char const value[])
-{
-    property_override(system_prop, value);
-    property_override(vendor_prop, value);
-}
-
 void vendor_load_properties() {
-    property_override("ro.build.description","redfin-user 11 SP1A.211105.003 7757856 release-keys");
-    property_override("ro.bootimage.build.fingerprint","google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys");
-    property_override("ro.build.fingerprint","google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys");
-    property_override("ro.odm.build.fingerprint","google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys");
-    property_override("ro.product.build.fingerprint","google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys");
-    property_override("ro.system.build.fingerprint","google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys");
-    property_override("ro.system_ext.build.fingerprint","google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys");
-    property_override("ro.vendor.build.fingerprint","google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys");
-    property_override("ro.oem_unlock_supported", "0");
-    property_override("ro.boot.verifiedbootstate", "green");
-    property_override("ro.boot.flash.locked", "1");
-    property_override("ro.boot.veritymode", "enforcing");
-    property_override("ro.boot.vbmeta.device_state", "locked");
-
     string oppo_sku = GetProperty("ro.boot.product.hardware.sku", "");
 
     if (oppo_sku == "nfc_ese"){
