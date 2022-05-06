@@ -1155,11 +1155,6 @@ vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
 
 # Media - LA.UM.9.8.r1-02700-SDM710.0
-system_ext/lib/extractors/libmmparserextractor.so|4a36864e04c4d1003c1f411c62fd8dae68e836b4
-system_ext/lib/libavenhancements.so|e5f071872bff2e257f709cd8bfc466e6e689b0ea
-system_ext/lib/libqct_resampler.so|4186d11e0c418e7366422802635be68e21b9fca6
-system_ext/lib64/extractors/libmmparserextractor.so|f38d208278c68016b945e626186e7c7c1b357869
-system_ext/lib64/libavenhancements.so|73aa11f9c2749fed1b558861f33abbfbb4b61fa6
 vendor/bin/vppservice|555301b19a86374900159423c88efd7bd9cea2f9
 vendor/etc/configstore/vpp.configstore.xml|d5095f33c326017a21fff186d19a2ce146b85d94
 vendor/etc/init/vppservice.rc|9daea1a00124d65ecb6978936785273edb74a8ed
